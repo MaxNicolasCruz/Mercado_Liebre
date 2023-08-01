@@ -4,10 +4,9 @@ const path = require('path')
 
 app.use(express.static('public'))
 
-app.listen(5600,()=>{
-    console.log("ok")
-})
-
+//levantar nuestro servidor
+const port = process.env.port || 3001;
+app.listen(port,()=>console.log(`servidor corriendo en el puerto ${port}`));
 
 app.get('/', (req, res) =>{
     res.sendFile(path.resolve(__dirname, "./view/home.html"))
