@@ -1,0 +1,15 @@
+
+.conteiner-footer {
+    text-align: center;
+    padding-top: 15px;
+}
+.conteiner-footer i{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #1259c3;
+    transition: all 800ms;
+}
+.conteiner-footer i:hover {
+    color: var(--azul);
+}
+

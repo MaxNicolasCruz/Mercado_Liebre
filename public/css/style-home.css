@@ -1,0 +1,133 @@
+/* MAIN */
+
+.carrusel {
+    width: 100vw;
+}
+
+.titulares {
+    font-size: 24px;
+    margin-top: 10px;
+    color: var(--gris-oscuro);
+    padding-left: 10%;
+}
+
+.precios {
+    font-size: 18px;
+}
+
+.descuento {
+    font-size: 16px;
+    color: var(--verde);
+}
+
+.descripciones {
+    display: none;
+}
+
+.imagen-del-producto {
+    width: 100%;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.productos {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 3px;
+    width: 80%;
+}
+
+.detalles-del-producto {
+    border-top: 1px solid var(--gris-claro);
+    position: relative;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.detalles-del-producto i{
+    color: var(--verde);
+    border: var(--gris-claro) 1px solid;
+    border-radius: 50%;
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 80%;
+    top: -15px;
+    transition: all 400ms;
+}
+
+.detalles-del-producto i:hover {
+    rotate: -90deg;
+}
+
+@media (min-width: 361px) {
+    /* MAIN */
+
+    .descripciones {
+        font-size: 16px;
+        color: var(--gris-oscuro);
+        padding-bottom: 9px;
+        margin: 5px 0;
+    }
+
+    .precios {
+        margin: 5px 0;
+        padding-top: 9px;
+    }
+    
+    .descuento {
+        margin: 5px 0;
+    }
+
+    .detalles-del-producto {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        align-content: space-around;
+    }
+    
+    .contenedor-main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .productos{
+        width: 40%;
+    }
+}
+
+@media (min-width: 769px) {
+    /* MAIN */
+
+    .productos{
+        width: 21%;
+    }
+    
+    .productos:hover{
+        animation: border 1s linear infinite ;
+    }
+
+    .productos:hover .descripciones{
+        display: block;
+    }
+
+    @keyframes border {
+        0%{
+            box-shadow: 0px 0px 20px 5px #39b54a;
+        }
+        50%{
+            box-shadow: 0px 0px 20px 10px #10611c;
+        }
+        100%{
+            box-shadow: 0px 0px 20px 5px #39b54a;
+        }
+    }
+}

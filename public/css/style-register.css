@@ -1,0 +1,92 @@
+/* MAIN */
+
+h2{
+    margin-top: 0;
+    padding-top: 10px;
+}
+main {
+    background-color: var(--gris-claro);
+}
+form {
+    margin: 0 0 0 10%;
+}
+
+.conteiner-input {
+    margin: 10px;
+}
+
+.input-style, .input-password {
+    height: 35px;
+    width: 50%;
+    border-radius: 5px;
+    border: 1px solid var(--gris-claro);
+    outline: none;
+    padding-left: 10px;
+}
+
+.input-check-box input{
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.input-check-box:hover {
+    font-size: 20px;
+}
+
+.radio{
+    margin-right: 40px;
+}
+
+.radio:hover {
+    font-size: 20px;
+}
+
+.user-icon{
+    font-size: 75px;
+    color: var(--celeste);
+}
+
+.picture-user {
+    color: var(--celeste);
+    position: relative;
+    background-color: var(--gris-claro);
+    width: 20px;
+    left: 55px;
+    top: -30px;
+    transition: all 450ms;
+}
+
+.picture-user:hover {
+    color: #03264C;
+}
+
+.picture-user label {
+    position: relative;
+    top: 0px;
+    left: 1px;
+    cursor: pointer;
+}
+
+.input-file[type="file"] {
+    display: none;
+}
+
+.picture-user-2{
+    position: relative;
+}
+
+.button-send, .button-reset {
+    background-color: var(--celeste);
+    height: 35px;
+    width: 80px;
+    border-radius: 4px;
+    border-color: white;
+    color: white;
+    padding: 5px;
+    margin: 10px 0 20px 15px;
+    transition: all 450ms;
+}
+
+.button-send:hover, .button-reset:hover {
+    background-color: var(--azul);
+}
