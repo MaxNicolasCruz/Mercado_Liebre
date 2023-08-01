@@ -1,0 +1,3 @@
+Trabajo de Mercado Liebre realizado
+
+reseña: Este trabajo logro ayudarme a entender de mejor manera muchos conceptos, hice algunos cambios a mis gusto creo que puede y un error que pude darme cuenta es el hecho no implementar el normalize pero fue porque tengo un problema al usar la regla "import" y por la misma razon me restringio algunas lineas de codigo
